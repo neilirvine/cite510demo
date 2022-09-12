@@ -1,4 +1,8 @@
 <template>
+     <v-parallax
+    dark
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+  >
 <v-container fluid>
 <v-card
     color="grey">
@@ -19,7 +23,7 @@ Vowels: {{ vowels }} Numbers: {{ num }} Consonants: {{ cons }}  Modified: {{ con
  </v-card>  
 </v-container>
  
-
+     </v-parallax>
 </template>
 
 <script setup>
